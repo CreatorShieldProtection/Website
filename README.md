@@ -1,6 +1,6 @@
 # Creator Shield Protection
 ![Creator Shield Protection](CSP.png)
-#What do we do?
+# What do we do?
 Piracy takes income from creators, and the sites that host it often put visitors at risk. We work on both problems.
 Takedown support: We help creators prepare and send removal requests to hosts, search engines and platforms.
 
@@ -8,7 +8,7 @@ Piracy monitoring: Volunteers look for unauthorized copies of creative work and 
 
 Data safety education: Plain-language guides that show people how pirate sites spread malware and steal personal data.
 
-#How a takedown works
+# How a takedown works
 You do not need legal training to ask for stolen work to be removed. Here is how we handle each case.
 
     You send us the details
