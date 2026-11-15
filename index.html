@@ -48,7 +48,6 @@ p{margin:0 0 1em;max-width:62ch}
 section{padding:clamp(3.5rem,8vw,6rem) 0}
 :focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:6px}
 
-/* header */
 header{position:sticky;top:0;z-index:20;background:var(--ink);color:#fff;padding-top:env(safe-area-inset-top,0px)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:68px}
 .brand{display:flex;align-items:center;gap:.6rem;font:700 1.1rem var(--head);text-decoration:none}
@@ -69,7 +68,6 @@ nav a:hover{opacity:1;color:var(--signal)}
   nav li a{display:block;padding:.9rem 0;border-bottom:1px solid #ffffff18}
 }
 
-/* hero */
 .hero{background:linear-gradient(160deg,var(--ink) 0%,var(--steel) 100%);color:#fff;padding-block:clamp(3rem,8vw,6rem)}
 .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center}
 .hero p{font-size:1.2rem;color:#d3deea}
@@ -79,12 +77,10 @@ nav a:hover{opacity:1;color:var(--signal)}
 .photo svg,.photo img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
 @media(max-width:860px){.hero .wrap{grid-template-columns:1fr}.photo{order:-1;aspect-ratio:16/10}}
 
-/* trust strip */
 .strip{background:var(--card);border-bottom:1px solid var(--line);padding:1.4rem 0}
 .strip ul{display:flex;flex-wrap:wrap;gap:.6rem 2rem;list-style:none;margin:0;padding:0;justify-content:center;font-weight:600;color:var(--muted)}
 .strip li::before{content:"✔";color:var(--signal-d);margin-right:.5rem}
 
-/* what we do */
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;margin-top:2rem}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.6rem}
 .card .ic{width:48px;height:48px;border-radius:12px;background:var(--ink);display:grid;place-items:center;margin-bottom:1rem}
@@ -92,7 +88,6 @@ nav a:hover{opacity:1;color:var(--signal)}
 .card p{color:var(--muted);margin:0}
 @media(max-width:860px){.grid3{grid-template-columns:1fr}}
 
-/* split */
 .split{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
 .split.rev .photo{order:2}
 @media(max-width:860px){.split{grid-template-columns:1fr;gap:2rem}.split.rev .photo{order:0}}
@@ -101,7 +96,6 @@ nav a:hover{opacity:1;color:var(--signal)}
 .steps li::before{content:counter(s);position:absolute;left:0;top:-.1rem;width:2.2rem;height:2.2rem;border-radius:50%;background:var(--signal);color:#04211d;font:800 1rem var(--head);display:grid;place-items:center}
 .steps b{display:block}
 
-/* takedown */
 .td{background:var(--ink);color:#fff}
 .td p{color:#c9d6e4}
 .td-box{background:var(--card);color:var(--text);border-radius:18px;padding:clamp(1.3rem,3vw,2.2rem);display:grid;gap:1rem;box-shadow:0 20px 50px #0005}
@@ -115,7 +109,6 @@ textarea{min-height:120px;resize:vertical}
 .toast{display:none;background:#e6f7f4;color:#0b4d45;border-radius:10px;padding:.8rem 1rem;font-weight:600}
 .toast.show{display:block}
 
-/* safety */
 details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1rem 1.3rem;margin-bottom:.8rem}
 summary{cursor:pointer;font:700 1.1rem var(--head);list-style:none;display:flex;justify-content:space-between;gap:1rem}
 summary::-webkit-details-marker{display:none}
@@ -123,7 +116,6 @@ summary::after{content:"+";font-size:1.5rem;line-height:1;color:var(--signal-d);
 details[open] summary::after{transform:rotate(45deg)}
 details p{margin:.8rem 0 0;color:var(--muted)}
 
-/* join */
 .join{background:linear-gradient(160deg,var(--steel),var(--ink));color:#fff;text-align:center}
 .join p{margin-inline:auto;color:#d3deea}
 footer{background:#08111d;color:#9db0c4;padding:2.2rem 0;font-size:.95rem}
@@ -297,8 +289,6 @@ footer a{color:var(--signal)}
 </footer>
 
 <script>
-// Add your own stock photo URLs here (Unsplash, Pexels, etc.). Leave "" to keep the built-in illustration.
-// Remote photos load when the site runs on your own hosting.
 var PHOTOS = { hero:"", team:"", safety:"" };
 
 document.getElementById("yr").textContent = new Date().getFullYear();
